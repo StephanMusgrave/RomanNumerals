@@ -1,6 +1,8 @@
 class RomanNumerals
 
-  ROMAN_NUMERALS = {1000 => "M", 900 => "CM", 500 => "D", 100 => "C", 50 => "L", 10 => "X", 5 => "V", 1 => "I",}
+  ROMAN_NUMERALS = {1000 => "M", 900 => "CM", 500 => "D", 100 => "C", 
+                    90 => "XC", 50 => "L", 40 => "XV", 10 => "X", 
+                    9 => "IX", 5 => "V", 4 => "IV", 1 => "I"}
   
   def self.convert(number)
     roman_numeral = ""
